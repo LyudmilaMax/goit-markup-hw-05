@@ -569,6 +569,7 @@ body {
 .address-footer {
   font-style: normal;
   color: var(--secondary-text-color-light);
+  transition: color var(--transition-color);
 }
 
 .email-footer,
