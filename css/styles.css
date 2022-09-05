@@ -29,32 +29,40 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   display: block;
 }
+
 button {
   cursor: pointer;
 }
+
 div {
   display: block;
 }
+
 .logo,
 .link {
   text-decoration: none;
   font-weight: 500;
 }
+
 .list {
   list-style: none;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -70,27 +78,33 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* =====HEADER===== */
 .page-header-container {
   display: flex;
   align-items: center;
 }
+
 .page-header {
-  padding-top: 20px;
-  padding-bottom: 25px;
-  
+  /* padding-top: 20px;
+  padding-bottom: 25px; */
+
   border-bottom: 1px solid var(--border-color-header);
 }
+
 .page-navigation {
   display: flex;
   align-items: center;
 }
+
 .menu-list {
   display: flex;
 }
+
 .list-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -99,12 +113,15 @@ body {
   color: #000000;
   margin-right: 93px;
 }
+
 .part-web {
   color: var(--accent-color);
 }
+
 .part-studio {
   color: var(--secondary-text-color-light);
 }
+
 .list-nav .link {
   color: var(--main-text-color-dark);
 }
@@ -117,29 +134,32 @@ body {
   padding-bottom: 32px;
   font-weight: 500;
 
-  
+
   color: var(--main-text-color-dark);
   transition: color var(--transition-color);
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
 }
+
 .list-link.current {
   color: var(--accent-color);
 }
 
-.current::after{
+.current::after {
   content: "";
   position: absolute;
   display: block;
   width: 100%;
   height: 4px;
-   bottom: -1px;
+  bottom: -1px;
   background-color: var(--accent-color);
   border-radius: 2px;
   transition: color var(--transition-color), backgraund var(--transition-bgc);
 }
+
 .email-header,
 .phone-header {
   display: flex;
@@ -148,14 +168,16 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 32px 0px;
+  padding: 32px 32px;
   color: var(--secondary-text-color-dark);
   fill: currentColor;
   transition: color var(--transition-color);
 }
+
 .contacts {
   margin-left: auto;
 }
+
 .email-header {
   margin-right: 50px;
 }
@@ -169,10 +191,12 @@ body {
   margin-right: 10px;
   fill: var(-icon-header-color);
 }
+
 .icon-email:hover,
 .icon-phone:hover {
   fill: var(--accent-color);
 }
+
 .icon-email:focus,
 .icon-phone:focus {
   fill: var(--accent-color);
@@ -185,10 +209,8 @@ body {
   background: var(--background-hero);
   padding: 200px 0px;
   background-color: var(--background-color-hero);
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url("../images/hero/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -196,6 +218,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -209,6 +232,7 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
 }
+
 .modal-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -228,6 +252,7 @@ body {
   margin: auto;
   justify-content: center;
 }
+
 .button-link:active,
 .button-link:hover,
 .button-link:focus {
@@ -236,6 +261,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .menu-buttons {
   display: flex;
 
@@ -260,10 +286,12 @@ body {
   transition: color var(--transition-color),
     background-color var(--transition-bgc);
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -276,6 +304,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .list-benefits {
   font-size: 14px;
   line-height: 1.14;
@@ -283,13 +312,16 @@ body {
   color: var(--main-text-color-dark);
   margin-bottom: 10px;
 }
+
 .text-benefits {
   line-height: 1.71;
   color: var(--secondary-text-color-dark);
 }
+
 .work {
   padding-bottom: 94px;
 }
+
 .secondary-title {
   font-size: 36px;
   line-height: 1.17;
@@ -297,6 +329,7 @@ body {
   color: var(--main-text-color-dark);
   margin-bottom: 50px;
 }
+
 .team {
   background: var(--background-team);
 }
@@ -314,6 +347,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .person {
   font-weight: 500;
   font-size: 16px;
@@ -322,6 +356,7 @@ body {
   color: var(--main-text-color-dark);
   margin-bottom: 10px;
 }
+
 .profession {
   font-size: 16px;
   line-height: 1.19;
@@ -329,11 +364,13 @@ body {
   margin-bottom: 16px;
   color: var(--secondary-text-color-dark);
 }
+
 .social-list {
   display: flex;
   justify-content: center;
   column-gap: 10px;
 }
+
 .social-list-link {
   display: flex;
   align-items: center;
@@ -367,6 +404,7 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .card-benefits {
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -389,22 +427,23 @@ body {
 .img-card {
   flex-basis: calc((100% - 60px) / 3);
 }
+
 .text-card {
   position: absolute;
   font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-    width: 370px;
-    height: 70px;
-    padding: 27px 0px;
-    color: var(--secondary-text-color-light);
-    background: rgba(47, 48, 58, 0.8);
-    transform: translateY(-100%);
-      
+  width: 370px;
+  height: 70px;
+  padding: 27px 0px;
+  color: var(--secondary-text-color-light);
+  background: rgba(47, 48, 58, 0.8);
+  transform: translateY(-100%);
+
 }
 
 .overlay-img-card {
@@ -418,6 +457,7 @@ body {
 .image {
   background: var(--background);
 }
+
 .title {
   font-size: 18px;
   line-height: 2;
@@ -425,11 +465,13 @@ body {
   margin-bottom: 4px;
   color: var(--main-text-color-dark);
 }
+
 .open-cards {
   font-size: 16px;
   line-height: 1.88;
   color: var(--secondary-text-color-dark);
 }
+
 .card {
   padding: 24px 20px 24px 20px;
   background: var(--background-basic);
@@ -440,6 +482,7 @@ body {
 .img-card-link {
   display: block;
 }
+
 .img-card-link:hover,
 .img-card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -450,6 +493,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -477,6 +521,7 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .clients-link {
   display: flex;
   align-items: center;
@@ -489,6 +534,7 @@ body {
   background-color: var(--background-basic);
   transition: color var(--transition-color);
 }
+
 .clients-icon {
   fill: currentColor;
 }
@@ -509,12 +555,15 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .logo-footer {
   margin-bottom: 20px;
 }
+
 .footer-address-list {
   margin-top: 20px;
 }
+
 .item-footer-link:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -523,6 +572,7 @@ body {
   font-style: normal;
   color: var(--secondary-text-color-light);
 }
+
 .email-footer,
 .phone-number-footer {
   font-style: normal;
@@ -532,10 +582,12 @@ body {
   color: var(--footer-contacts-color);
   transition: color var(--transition-color);
 }
+
 .general-footer {
   display: flex;
   align-items: baseline;
 }
+
 .contacts-footer {
   margin-right: 70px;
 }
@@ -547,12 +599,14 @@ body {
   text-transform: uppercase;
   color: var(--secondary-text-color-light);
 }
+
 .social-list-footer {
   display: flex;
   justify-content: center;
   column-gap: 10px;
   margin-top: 20px;
 }
+
 .icon-footer {
   display: flex;
   align-items: center;
@@ -579,6 +633,7 @@ body {
   height: 20px;
   fill: var(--secondary-text-color-light);
 }
+
 /* ====/FOOTER============================================= */
 
 .backdrop {
@@ -588,14 +643,14 @@ body {
   z-index: 100;
   width: 100%;
   height: 100%;
-  
-  
+
+
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 250ms ease, visibility 250ms ease;
 }
 
 .backdrop.is-hidden {
-   opacity: 0;
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
 
@@ -612,7 +667,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  
+
 }
 
 .modal-close-btn {
@@ -631,6 +686,7 @@ body {
   right: 8px;
 
 }
+
 .icon-close {
   fill: #000000;
 }
