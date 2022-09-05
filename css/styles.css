@@ -86,7 +86,7 @@ body {
 }
 
 .page-header {
-   border-bottom: 1px solid var(--border-color-header);
+  border-bottom: 1px solid var(--border-color-header);
 }
 
 .page-navigation {
@@ -131,7 +131,6 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
-
 
   color: var(--main-text-color-dark);
   transition: color var(--transition-color);
@@ -207,8 +206,10 @@ body {
   background: var(--background-hero);
   padding: 200px 0px;
   background-color: var(--background-color-hero);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../images/hero/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -441,7 +442,6 @@ body {
   color: var(--secondary-text-color-light);
   background: rgba(47, 48, 58, 0.8);
   transform: translateY(-100%);
-
 }
 
 .overlay-img-card {
@@ -643,7 +643,6 @@ body {
   width: 100%;
   height: 100%;
 
-
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 250ms ease, visibility 250ms ease;
 }
@@ -652,7 +651,6 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
 }
 
 .modal {
@@ -666,7 +664,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
 }
 
 .modal-close-btn {
@@ -683,7 +680,6 @@ body {
   left: auto;
   top: 8px;
   right: 8px;
-
 }
 
 .icon-close {
