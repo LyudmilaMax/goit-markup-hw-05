@@ -86,10 +86,7 @@ body {
 }
 
 .page-header {
-  /* padding-top: 20px;
-  padding-bottom: 25px; */
-
-  border-bottom: 1px solid var(--border-color-header);
+   border-bottom: 1px solid var(--border-color-header);
 }
 
 .page-navigation {
